@@ -8,6 +8,14 @@
       app
     >
       <v-list>
+        <v-list-item>
+          <v-switch
+            v-model="$vuetify.theme.dark"
+            label="Dark Mode"
+            hint="Enable Dark Mode"
+            @click.stop="setDarkMode"
+          />
+        </v-list-item>
         <v-list-item
           v-for="(item, i) in items"
           :key="i"
@@ -63,6 +71,14 @@ export default {
       ],
       miniVariant: false,
       title: 'Vuetify.js'
+    }
+  },
+  mounted () {
+    this.$vuetify.theme.dark = this.$store.state.darkMode
+  },
+  methods: {
+    setDarkMode () {
+      this.$store.commit('setDarkMode', this.$vuetify.theme.dark)
     }
   }
 }
