@@ -65,9 +65,44 @@ export default {
       fixed: true,
       items: [
         {
-          icon: 'mdi-apps',
+          icon: 'mdi-home',
           title: 'Index',
           to: '/'
+        },
+        {
+          icon: 'mdi-fire',
+          title: 'Firebase Vue App',
+          to: '/firebasevue'
+        },
+        {
+          icon: 'mdi-code-array',
+          title: 'CHelper',
+          to: '/chelper'
+        },
+        {
+          icon: 'mdi-apps',
+          title: 'CoD Prototype Interface',
+          to: '/481'
+        },
+        {
+          icon: 'mdi-gamepad',
+          title: 'Grand Yield',
+          to: '/grandyield'
+        },
+        {
+          icon: 'mdi-gamepad-variant',
+          title: 'Darkest Depths',
+          to: '/darkestdepths'
+        },
+        {
+          icon: 'mdi-headphones',
+          title: 'Intractable Dialogue System',
+          to: '/vrspeech'
+        },
+        {
+          icon: 'mdi-bowling',
+          title: 'Hanabi',
+          to: '/hanabi'
         }
       ],
       miniVariant: false,

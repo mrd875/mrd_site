@@ -1,10 +1,21 @@
 <template>
   <v-row justify="center" align="center">
     <v-col cols="12" sm="8" md="6">
-      <v-card>
-        <v-card-title class="headline">
-          Welcome to my Site!
-        </v-card-title>
+      <v-card
+        dark
+        color="#A02020"
+      >
+        <v-img
+          src="/index.png"
+          height="300px"
+          gradient="to bottom, rgba(0,0,0,.1), rgba(0,0,0,.5)"
+          class="white--text align-end"
+        >
+          <v-card-title class="headline">
+            Welcome to my Site!
+          </v-card-title>
+        </v-img>
+
         <v-card-text>
           <p>
             I am a Computer Scientist with a Bachelor's Degree creating apps with all kinds of technologies for fun, experience and utility.
@@ -135,7 +146,7 @@ export default {
         color: '#709050',
         src: '/grandyield.png',
         title: 'Grand Yield',
-        subtitle: 'A competitive farming game for CMPT406',
+        subtitle: 'A multiplayer competitive farming game for CMPT406',
         to: '/grandyield'
       },
       {
