@@ -50,7 +50,8 @@
       :absolute="!fixed"
       app
     >
-      <span>&copy; {{ new Date().getFullYear() }}</span>
+      <span>Mason (mrd875)</span>
+      <span style="text-align: right;float: right;margin-left: auto; margin-right: 0px;">Made with <a href="https://vuetifyjs.com/en/">Vuetify</a>.</span>
     </v-footer>
   </v-app>
 </template>
@@ -65,12 +66,12 @@ export default {
       items: [
         {
           icon: 'mdi-apps',
-          title: 'Welcome',
+          title: 'Index',
           to: '/'
         }
       ],
       miniVariant: false,
-      title: 'Vuetify.js'
+      title: 'mrd875 Site'
     }
   },
   mounted () {

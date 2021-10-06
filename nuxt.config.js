@@ -9,8 +9,8 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    titleTemplate: '%s - mrd_site',
-    title: 'mrd_site',
+    titleTemplate: '%s - mrd875 Site',
+    title: 'Index',
     htmlAttrs: {
       lang: 'en'
     },
