@@ -122,7 +122,7 @@ export default {
   data: () => ({
     projects: [
       {
-        color: '#3C9F40',
+        color: '#1C4F10',
         src: '/firebasevueapp.png',
         title: 'Firebase Vue App',
         subtitle: 'A realtime webapp managing entries',

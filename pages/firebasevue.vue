@@ -3,31 +3,32 @@
     <v-col cols="12" sm="8" md="6">
       <v-card
         dark
-        color="#494F52"
+        color="#1C4F10"
       >
         <v-img
-          src="/481-big.png"
-          gradient="to bottom, rgba(0,0,0,.1), rgba(0,0,0,.5)"
+          src="/vueapp.png"
           height="300px"
+          gradient="to bottom, rgba(0,0,0,.1), rgba(0,0,0,.5)"
         />
         <v-card-title class="headline">
-          CoD Prototype Interface
+          Firebase Vue App
         </v-card-title>
         <v-card-text>
           <p>
-            The CoD Prototype Interface was a duo project for CMPT481, the goal was to redesign an existing interface and improve it using concepts learned in-class and develop a prototype.<br>
+            A realtime webapp that had authentication and managed entries with a chat/log.<br>
             <br>
-            The project was developed using <a href="https://vuejs.org/">Vue</a>, <a href="https://nuxtjs.org/">Nuxt</a> and <a href="https://vuetifyjs.com/en/">Vuetify</a> (just like this site!).
+            This project was developed using <a href="https://vuejs.org/">Vue</a>, <a href="https://firebase.google.com/">Google Firebase</a> and <a href="https://router.vuejs.org/">the Vue Router</a>.<br>
+            <br>
+            The purpose was to learn the technologies as required for my Summer 2018 employment at the <a href="https://hci.usask.ca/">HCI Lab</a> at the <a href="https://www.usask.ca/">University of Saskatchewan</a>.<br>
+            <br>
+            Using <a href="https://www.youtube.com/watch?v=sYNjEzcOTOs">this</a>, a YouTube video guide series, it took around a week and a half to develop and complete.
           </p>
         </v-card-text>
         <div style="height: 30px" />
 
         <v-row justify="center">
           <v-card width="80%">
-            <v-img src="/481.gif" />
-            <v-card-subtitle>
-              Background video removed to reduce size of GIF image.
-            </v-card-subtitle>
+            <v-img src="/vueapp.gif" />
           </v-card>
         </v-row>
 
@@ -42,7 +43,7 @@
               column
             >
               <v-chip
-                href="https://github.com/mrd875/481-Project"
+                href="https://github.com/mrd875/VueApp"
               >
                 <v-icon color="white">
                   mdi-github
@@ -51,7 +52,7 @@
               </v-chip>
 
               <v-chip
-                href="https://mrd875.github.io/481-Project/"
+                href="https://mrd875.github.io/VueApp"
               >
                 <v-icon color="green">
                   mdi-apps
@@ -78,7 +79,7 @@
 export default {
   head () {
     return {
-      title: 'CoD Prototype Interface'
+      title: 'Firebase Vue App'
     }
   }
 }
