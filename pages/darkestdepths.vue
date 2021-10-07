@@ -15,6 +15,12 @@
         </v-card-title>
         <v-card-text>
           <p>
+            Darkest Depths was a group project for CMPT306 (Game development).<br>
+            <br>
+            It is a rougelike singleplayer videogame where the goal is to capture the key, avoid enemies, gather resources and build to the mining lift.<br>
+            <br>
+            The game gets progressively more difficult and rewards the player with powerups as they progress.<br>
+            <br>
             The game was developed using the <a href="https://unity.com/">Unity Game Engine</a>.
           </p>
         </v-card-text>

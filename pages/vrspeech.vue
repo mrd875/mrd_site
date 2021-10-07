@@ -15,7 +15,13 @@
         </v-card-title>
         <v-card-text>
           <p>
-            The game was developed using the <a href="https://unity.com/">Unity Game Engine</a>.
+            This was the CMPT371 large group project. I was assigned Developer for the project.<br>
+            <br>
+            The project was developed using Test Driven Development as well as many other concepts learned in-class.<br>
+            <br>
+            The project's goal is to create a Unity Add-on for ease of creating dialog trees with Text-To-Speech output using Speech-To-Text input from the user using Virtual Reality.<br>
+            <br>
+            The project was developed using the <a href="https://unity.com/">Unity Game Engine</a>.
           </p>
         </v-card-text>
         <div style="height: 30px" />

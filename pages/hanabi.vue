@@ -6,7 +6,7 @@
         color="#2020B0"
       >
         <v-img
-          src="/hanabi-big.png"
+          src="/hanabi.png"
           height="300px"
           gradient="to bottom, rgba(0,0,0,.1), rgba(0,0,0,.5)"
         />
