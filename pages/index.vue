@@ -169,6 +169,13 @@ export default {
         title: 'Hanabi',
         subtitle: 'A JavaFX client for a Hanabi Game server for CMPT370',
         to: '/hanabi'
+      },
+      {
+        color: '#105010',
+        src: '/node.png',
+        title: 'Groupware Toolkit',
+        subtitle: 'A NodeJS library for efficient realtime communication',
+        to: '/gwtk'
       }
     ],
     links: [

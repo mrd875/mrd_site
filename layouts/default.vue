@@ -103,6 +103,11 @@ export default {
           icon: 'mdi-bowling',
           title: 'Hanabi',
           to: '/hanabi'
+        },
+        {
+          icon: 'mdi-apps',
+          title: 'Groupware Toolkit',
+          to: '/gwtk'
         }
       ],
       miniVariant: false,
