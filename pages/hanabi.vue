@@ -15,7 +15,9 @@
         </v-card-title>
         <v-card-text>
           <p>
-            A.<br>
+            This was the CMPT370 group project. It was developed using the Waterfall approach.<br>
+            <br>
+            The goal of the project was to create a Hanabi Game client used to connect to the Professor's Hanabi Game server.<br>
           </p>
         </v-card-text>
 
@@ -27,7 +29,16 @@
               v-model="selection"
               active-class="accent-4 white--text"
               column
-            />
+            >
+              <v-chip
+                href="https://git.cs.usask.ca/370-19/f3"
+              >
+                <v-icon color="white">
+                  mdi-github
+                </v-icon>
+                <span>&nbsp;U of S CS GitLab</span>
+              </v-chip>
+            </v-chip-group>
           </v-card-text>
 
           <v-btn
