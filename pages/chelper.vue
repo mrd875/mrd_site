@@ -6,7 +6,7 @@
         color="#202060"
       >
         <v-img
-          src="https://cdn.vuetifyjs.com/images/cards/sunshine.jpg"
+          src="/chelper-code.png"
           height="300px"
         />
         <v-card-title class="headline">
@@ -14,10 +14,21 @@
         </v-card-title>
         <v-card-text>
           <p>
-            CHelper
+            CHelper is a library I wrote in pure portable C (c99).<br>
+            It has many data structures such as LinkedLists and AVL Trees. It even has a JSON capabilities such as parsing and stringifiying.<br>
+            The library even handled deep copying and recursive data freeing.<br>
+            Used in a few assignments for CMPT that required we used C code with no external third party code.
           </p>
         </v-card-text>
+        <div style="height: 30px" />
 
+        <v-row justify="center">
+          <v-card width="80%">
+            <v-img src="/chelper-testoutput.png" />
+          </v-card>
+        </v-row>
+
+        <div style="height: 30px" />
         <v-divider class="mx-4" />
 
         <v-card-actions>
@@ -27,7 +38,9 @@
               active-class="accent-4 white--text"
               column
             >
-              <v-chip>
+              <v-chip
+                href="https://github.com/mrd875/CHelper"
+              >
                 <v-icon color="white">
                   mdi-github
                 </v-icon>
