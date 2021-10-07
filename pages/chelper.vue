@@ -15,7 +15,7 @@
         <v-card-text>
           <p>
             CHelper is a library I wrote in pure portable C (c99).<br>
-            It has many data structures such as LinkedLists and AVL Trees. It even has a JSON capabilities such as parsing and stringifiying.<br>
+            It has many data structures such as LinkedLists AVL Trees, Heaps and more. It even has JSON capabilities such as parsing and stringifiying.<br>
             The library even handled deep copying and recursive data freeing.<br>
             Used in a few assignments for CMPT that required we used C code with no external third party code.
           </p>
