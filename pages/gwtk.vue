@@ -15,7 +15,13 @@
         </v-card-title>
         <v-card-text>
           <p>
-            A.<br>
+            Groupware Toolkit is a <a href="https://nodejs.org/en/">NodeJS</a> library used for collaborative applications.<br>
+            <br>
+            The library used <a href="https://socket.io/">Socket.IO</a> as the transport, and was event driven for passing updates (deltas of state) to the clients.<br>
+            <br>
+            The main goal of the software was to efficiently create realtime applications without the use of a proprietary server.<br>
+            <br>
+            The project was created while employed at the <a href="https://hci.usask.ca/">HCI Lab</a> at the <a href="https://www.usask.ca/">University of Saskatchewan</a>.
           </p>
         </v-card-text>
 
